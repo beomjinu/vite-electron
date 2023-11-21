@@ -1,0 +1,38 @@
+{
+  "name": "vite-electron",
+  "private": true,
+  "version": "0.0.0",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"electron .\"",
+    "build": "vite build && electron-builder"
+  },
+  "build": {
+    "appId": "your.app.id",
+    "productName": "YourApp",
+    "files": [
+      "dist/**/*",
+      "node_modules/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "dependencies": {
+    "electron-is-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "electron": "^27.1.0",
+    "concurrently": "^8.2.2",
+    "electron-builder": "^24.6.4"
+  }
+}
