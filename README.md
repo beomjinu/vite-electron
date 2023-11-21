@@ -1,6 +1,8 @@
 # vite-electron
 Simple Vite + Electron template.
 
+<img src="/blob/npmrundev.gif" width="80%" />
+
 ## Quick Setup
 ```bash
 # clone this repo
@@ -18,5 +20,3 @@ npm run dev
 # build
 npm run build
 ```
-
-<img src="/blob/npmrundev.gif" width="80%" />
