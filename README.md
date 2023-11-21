@@ -19,4 +19,4 @@ npm run dev
 npm run build
 ```
 
-![](/blob/npmrundev.gif)
+<img src="/blob/npmrundev.gif" width="80%" />
