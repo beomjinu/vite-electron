@@ -18,3 +18,5 @@ npm run dev
 # build
 npm run build
 ```
+
+![](/blob/npmrundev.gif)
